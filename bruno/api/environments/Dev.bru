@@ -1,0 +1,12 @@
+vars {
+  authUrl: {{process.env.DEV_CTP_AUTH_URL}}
+  apiUrl: {{process.env.DEV_CTP_API_URL}}
+  project-key: {{process.env.DEV_CTP_PROJECT_KEY}}
+  ctp_client_id: {{process.env.DEV_CTP_CLIENT_ID}}
+  ctp_client_secret: {{process.env.DEV_CTP_CLIENT_SECRET}}
+  username: {{process.env.DEV_CTP_USERNAME}}
+  password: {{process.env.DEV_CTP_USER_PWD}}
+}
+vars:secret [
+  ctp_access_token
+]

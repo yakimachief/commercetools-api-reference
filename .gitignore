@@ -35,5 +35,7 @@ tmpdoc
 gen.properties
 
 /bruno/*/environments/*
+!/bruno/*/environments/Stage.bru
+!/bruno/*/environments/Dev.bru
 !/bruno/*/environments/DotEnv.bru
 !/bruno/*/environments/Example.bru
